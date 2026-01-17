@@ -5,6 +5,9 @@ import Image from "next/image";
 import { db, categories, subcategories, posts } from "@/lib/db";
 import { eq, desc } from "drizzle-orm";
 
+// Force dynamic rendering to avoid build-time DB queries
+export const dynamic = "force-dynamic";
+
 async function getCategories() {
   const cats = await db.select().from(categories);
   const subcats = await db.select().from(subcategories);
