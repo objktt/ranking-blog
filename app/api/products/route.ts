@@ -147,10 +147,17 @@ export async function POST(request: NextRequest) {
       .returning();
 
     return NextResponse.json(newProduct, { status: 201 });
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Error creating product:", error);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    const errorCause = error instanceof Error && error.cause ? String(error.cause) : undefined;
     return NextResponse.json(
-      { error: "Failed to create product" },
+      {
+        error: "Failed to create product",
+        message: errorMessage,
+        cause: errorCause,
+        dbUrl: process.env.DATABASE_URL ? "set" : "not set"
+      },
       { status: 500 }
     );
   }
