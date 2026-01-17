@@ -101,10 +101,12 @@ export async function POST(request: NextRequest) {
       .returning();
 
     return NextResponse.json(newPost, { status: 201 });
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Error creating post:", error);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    const errorCause = error instanceof Error && error.cause ? String(error.cause) : undefined;
     return NextResponse.json(
-      { error: "Failed to create post" },
+      { error: "Failed to create post", message: errorMessage, cause: errorCause },
       { status: 500 }
     );
   }
