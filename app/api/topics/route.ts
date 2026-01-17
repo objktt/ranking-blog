@@ -13,15 +13,23 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const cats = await db.select().from(categories);
-  const subcats = await db.select().from(subcategories);
+  try {
+    const cats = await db.select().from(categories);
+    const subcats = await db.select().from(subcategories);
 
-  const result = cats.map((cat) => ({
-    ...cat,
-    subcategories: subcats.filter((sub) => sub.categoryId === cat.id),
-  }));
+    const result = cats.map((cat) => ({
+      ...cat,
+      subcategories: subcats.filter((sub) => sub.categoryId === cat.id),
+    }));
 
-  return NextResponse.json(result);
+    return NextResponse.json(result);
+  } catch (error) {
+    console.error("Error fetching topics:", error);
+    return NextResponse.json(
+      { error: "Failed to fetch topics", details: String(error) },
+      { status: 500 }
+    );
+  }
 }
 
 // POST: 카테고리 또는 서브카테고리 생성
