@@ -23,10 +23,17 @@ export async function GET(request: NextRequest) {
     }));
 
     return NextResponse.json(result);
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Error fetching topics:", error);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    const errorCause = error instanceof Error && error.cause ? String(error.cause) : undefined;
     return NextResponse.json(
-      { error: "Failed to fetch topics", details: String(error) },
+      {
+        error: "Failed to fetch topics",
+        message: errorMessage,
+        cause: errorCause,
+        dbUrl: process.env.DATABASE_URL ? "set" : "not set"
+      },
       { status: 500 }
     );
   }
