@@ -215,7 +215,7 @@ const posts: Record<string, PostData> = {
     subtitle: "We analyzed 8,500+ enthusiast reviews. The tactile experience has never been better.",
     category: "Tech",
     date: new Date("2026-01-28"),
-    heroImage: "/post-headphones.png",
+    heroImage: "/post-keyboard-1.jpg",
     intro: `
       <p class="lead">Cables are a thing of the past. Precision isn't.</p>
       <p>Modern wireless mechanical keyboards have finally closed the latency gap. We tested for <strong>latency</strong>, <strong>switch quality</strong>, and <strong>battery longevity</strong> to find the absolute best for your desk.</p>
@@ -231,7 +231,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Heavy", "Expensive"],
                 price: "$209",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-1.jpg"
             },
             {
                 rank: 2,
@@ -242,7 +242,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Smaller Battery"],
                 price: "$119",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-2.jpg"
             },
             {
                 rank: 3,
@@ -253,7 +253,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Micro-USB (some versions)", "Expensive"],
                 price: "$229",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-3.jpg"
             },
             {
                 rank: 4,
@@ -264,7 +264,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Software bloat", "Very Pricey"],
                 price: "$249",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-1.jpg"
             },
             {
                 rank: 5,
@@ -275,7 +275,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Plastic Base", "Tall profile"],
                 price: "$99",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-2.jpg"
             },
             {
                 rank: 6,
@@ -286,7 +286,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Razer Synapse", "Average battery"],
                 price: "$199",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-3.jpg"
             },
             {
                 rank: 7,
@@ -297,7 +297,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Expensive", "Keycap quality"],
                 price: "$239",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-1.jpg"
             },
             {
                 rank: 8,
@@ -308,7 +308,7 @@ const posts: Record<string, PostData> = {
                 cons: ["No Software", "Basic RGB"],
                 price: "$139",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-2.jpg"
             },
             {
                 rank: 9,
@@ -319,7 +319,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Dated Bluetooth", "No Hot-swap"],
                 price: "$89",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-3.jpg"
             },
             {
                 rank: 10,
@@ -330,7 +330,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Budget Plastic", "Hit-or-miss QC"],
                 price: "$75",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-1.jpg"
             }
         ],
         premium: [
@@ -343,7 +343,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Plastics at this price?", "Learning Curve"],
                 price: "$320",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-2.jpg"
             },
             {
                 rank: 2,
@@ -354,7 +354,7 @@ const posts: Record<string, PostData> = {
                 cons: ["$600+ Price", "Heavy"],
                 price: "$620",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-3.jpg"
             },
             {
                 rank: 3,
@@ -365,7 +365,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Waitlists", "Assembly required"],
                 price: "$245",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-1.jpg"
             }
         ],
         budget: [
@@ -378,7 +378,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Cheap Stabilizers"],
                 price: "$49",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-2.jpg"
             },
             {
                 rank: 2,
@@ -389,7 +389,7 @@ const posts: Record<string, PostData> = {
                 cons: ["Wired only", "Non-detachable cable"],
                 price: "$37",
                 link: "https://amazon.com",
-                image: "/post-headphones.png"
+                image: "/post-keyboard-3.jpg"
             }
         ]
     }

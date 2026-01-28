@@ -18,7 +18,7 @@ const fallbackPosts = [
     title: "Best Wireless Mechanical Keyboards 2026",
     slug: "best-wireless-keyboards-2026",
     excerpt: "Tactile, low-latency, and stunning. We found the top 10 wireless boards for your desk.",
-    image: "/post-headphones.png",
+    image: "/post-keyboard-1.jpg",
     publishedAt: new Date("2026-01-28"),
     categoryId: 2,
   },
