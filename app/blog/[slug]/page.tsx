@@ -209,6 +209,83 @@ const posts: Record<string, PostData> = {
           premium: generateMockProducts("Leica", 1, 1, "$9000"),
           budget: generateMockProducts("Ricoh", 1, 1, "$1000") // Joke entry
       }
+  },
+  "best-wireless-keyboards-2026": {
+    title: "Best Wireless Mechanical Keyboards 2026",
+    subtitle: "We analyzed 8,500+ enthusiast reviews. The tactile experience has never been better.",
+    category: "Tech",
+    date: new Date("2026-01-28"),
+    heroImage: "/post-headphones.png",
+    intro: `
+      <p class="lead">Cables are a thing of the past. Precision isn't.</p>
+      <p>Modern wireless mechanical keyboards have finally closed the latency gap. We tested for <strong>latency</strong>, <strong>switch quality</strong>, and <strong>battery longevity</strong> to find the absolute best for your desk.</p>
+    `,
+    rankings: {
+        overall: [
+            {
+                rank: 1,
+                name: "Keychron Q1 Max",
+                badge: "Best Overall",
+                description: "The gold standard for aluminum wireless boards. The 2.4GHz connection is flawless, and the double-gasket design provides a premium typing feel.",
+                pros: ["Heavy Duty Aluminum", "QMK/VIA Support", "2.4GHz + BT"],
+                cons: ["Heavy", "Expensive"],
+                price: "$209",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 2,
+                name: "NuPhy Air75 V2",
+                badge: "Best Low Profile",
+                description: "The best travel-friendly mechanical keyboard. Incredibly slim but retains a satisfying tactile bump.",
+                pros: ["Ultra-portable", "Stunning Design"],
+                cons: ["Smaller Battery"],
+                price: "$119",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 3,
+                name: "Logitech G915 TKL",
+                badge: "Gaming Performance",
+                description: "Low-latency Lightspeed technology makes this the undisputed king for competitive gaming.",
+                pros: ["Lightspeed Wireless", "Dedicated Media Keys"],
+                cons: ["Micro-USB (some versions)", "Expensive"],
+                price: "$229",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            ...generateMockProducts("Keychron/Ducky Alt", 4, 7, "$150")
+        ],
+        premium: [
+            {
+                rank: 1,
+                name: "HHKB Professional HYBRID Type-S",
+                badge: "Cult Classic",
+                description: "Topre switches provide a 'thock' that enthusiasts dream of. The layout is designed for speed and minimal hand movement.",
+                pros: ["Topre Switches", "Legendary Layout"],
+                cons: ["Plastics at this price?", "Learning Curve"],
+                price: "$320",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            ...generateMockProducts("Custom Board", 2, 9, "$400")
+        ],
+        budget: [
+            {
+                rank: 1,
+                name: "Royal Kludge RK61",
+                badge: "Value King",
+                description: "The best entry point into mechanical keyboards. Hot-swappable and extremely affordable.",
+                pros: ["Incredibly Cheap", "Hot-swappable"],
+                cons: ["Cheap Stabilizers"],
+                price: "$49",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            ...generateMockProducts("Budget Wireless", 2, 9, "$60")
+        ]
+    }
   }
 };
 

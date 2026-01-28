@@ -14,6 +14,15 @@ interface Post {
 
 const fallbackPosts = [
   {
+    id: 3,
+    title: "Best Wireless Mechanical Keyboards 2026",
+    slug: "best-wireless-keyboards-2026",
+    excerpt: "Tactile, low-latency, and stunning. We found the top 10 wireless boards for your desk.",
+    image: "/post-headphones.png",
+    publishedAt: new Date("2026-01-28"),
+    categoryId: 2,
+  },
+  {
     id: 0,
     title: "Best Noise Cancelling Headphones 2024",
     slug: "best-nc-headphones-2024",
