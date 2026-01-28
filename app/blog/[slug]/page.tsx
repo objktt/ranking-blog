@@ -421,7 +421,7 @@ export default function BlogPost() {
   return (
     <article className="min-h-screen bg-background pb-32">
       {/* Hero Image */}
-      <div className="relative w-full h-[50vh] md:h-[60vh] grayscale">
+      <div className="relative w-full h-[50vh] md:h-[60vh]">
         <Image 
           src={post.heroImage} 
           alt={post.title} 
@@ -491,7 +491,7 @@ export default function BlogPost() {
                       </div>
 
                       {/* Image Column */}
-                      <div className="md:col-span-4 relative aspect-[4/3] bg-neutral-100 overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
+                      <div className="md:col-span-4 relative aspect-[4/3] bg-neutral-100 overflow-hidden transition-all duration-500">
                           <Image
                               src={product.image}
                               alt={product.name}
