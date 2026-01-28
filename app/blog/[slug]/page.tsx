@@ -230,7 +230,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Heavy Duty Aluminum", "QMK/VIA Support", "2.4GHz + BT"],
                 cons: ["Heavy", "Expensive"],
                 price: "$209",
-                link: "https://www.amazon.com/s?k=Keychron+Q1+Max",
+                link: "https://www.amazon.com/Keychron-Mechanical-Programmable-Bluetooth-Hot-Swappable/dp/B0CR1JHZ6R",
                 image: "/post-keyboard-1.jpg"
             },
             {
@@ -241,7 +241,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Ultra-portable", "Stunning Design"],
                 cons: ["Smaller Battery"],
                 price: "$119",
-                link: "https://www.amazon.com/s?k=NuPhy+Air75+V2",
+                link: "https://www.amazon.com/nuphy-Air75-V2-Mechanical-Systems-Gateron/dp/B0CMXC46KH",
                 image: "/post-keyboard-2.jpg"
             },
             {
@@ -252,7 +252,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Lightspeed Wireless", "Dedicated Media Keys"],
                 cons: ["Micro-USB (some versions)", "Expensive"],
                 price: "$229",
-                link: "https://www.amazon.com/s?k=Logitech+G915+TKL",
+                link: "https://www.amazon.com/Logitech-Tenkeyless-Lightspeed-Mechanical-LIGHTSYNC/dp/B085RLZ1C4",
                 image: "/post-keyboard-3.jpg"
             },
             {
