@@ -255,7 +255,83 @@ const posts: Record<string, PostData> = {
                 link: "https://amazon.com",
                 image: "/post-headphones.png"
             },
-            ...generateMockProducts("Keychron/Ducky Alt", 4, 7, "$150")
+            {
+                rank: 4,
+                name: "Asus ROG Azoth",
+                badge: "Enthusiast Gaming",
+                description: "Combines custom keyboard features with gaming performance. Features an OLED screen and tri-mode connection.",
+                pros: ["Custom Feel", "Great Latency", "OLED Display"],
+                cons: ["Software bloat", "Very Pricey"],
+                price: "$249",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 5,
+                name: "Keychron K2 Pro",
+                badge: "Classic Choice",
+                description: "The classic 75% layout perfected with QMK/VIA support and improved acoustics.",
+                pros: ["Good Value", "Perfect Layout"],
+                cons: ["Plastic Base", "Tall profile"],
+                price: "$99",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 6,
+                name: "Razer DeathStalker V2 Pro",
+                badge: "Slim Gaming",
+                description: "Low-profile optical switches in a sleek, premium chassis. Excellent for both typing and gaming.",
+                pros: ["Optical Switches", "Very Slim"],
+                cons: ["Razer Synapse", "Average battery"],
+                price: "$199",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 7,
+                name: "SteelSeries Apex Pro TKL Wireless",
+                badge: "Fastest Response",
+                description: "OmniPoint 2.0 adjustable switches allow for the fastest actuation in the industry.",
+                pros: ["Adjustable Actuation", "Rapid Trigger"],
+                cons: ["Expensive", "Keycap quality"],
+                price: "$239",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 8,
+                name: "Ducky One 3 TKL",
+                badge: "Pure Typing",
+                description: "Legendary build quality with hot-swappable sockets and a vibrant aesthetic.",
+                pros: ["Solid Build", "Classic Feel"],
+                cons: ["No Software", "Basic RGB"],
+                price: "$139",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 9,
+                name: "Anne Pro 2",
+                badge: "60% Favorite",
+                description: "The 60% board that started it all. Compact, great firmware, and very portable.",
+                pros: ["Compact", "Great App"],
+                cons: ["Dated Bluetooth", "No Hot-swap"],
+                price: "$89",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 10,
+                name: "Epomaker TH80 Pro",
+                badge: "Budget King",
+                description: "Unbeatable features for the price. Includes a knob, hot-swap, and great stabilizers out of the box.",
+                pros: ["Amazing Price", "Includes Knob"],
+                cons: ["Budget Plastic", "Hit-or-miss QC"],
+                price: "$75",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            }
         ],
         premium: [
             {
@@ -269,7 +345,28 @@ const posts: Record<string, PostData> = {
                 link: "https://amazon.com",
                 image: "/post-headphones.png"
             },
-            ...generateMockProducts("Custom Board", 2, 9, "$400")
+            {
+                rank: 2,
+                name: "Angry Miao Cyberboard R4",
+                badge: "Endgame Aesthetics",
+                description: "A statement piece with a huge LED matrix and heavy aluminum construction.",
+                pros: ["Insane Design", "LED Matrix"],
+                cons: ["$600+ Price", "Heavy"],
+                price: "$620",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            },
+            {
+                rank: 3,
+                name: "Mode Envoy",
+                badge: "Custom Grade",
+                description: "A custom-grade board available in limited runs. Incredible acoustics and mounting options.",
+                pros: ["Perfect Sound", "High End Finish"],
+                cons: ["Waitlists", "Assembly required"],
+                price: "$245",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            }
         ],
         budget: [
             {
@@ -283,7 +380,17 @@ const posts: Record<string, PostData> = {
                 link: "https://amazon.com",
                 image: "/post-headphones.png"
             },
-            ...generateMockProducts("Budget Wireless", 2, 9, "$60")
+            {
+                rank: 2,
+                name: "Keychron C3 Pro",
+                badge: "Reliable Budget",
+                description: "Gasket mount and QMK support for under $40. It's almost too good to be true.",
+                pros: ["QMK Support", "Gasket Mount"],
+                cons: ["Wired only", "Non-detachable cable"],
+                price: "$37",
+                link: "https://amazon.com",
+                image: "/post-headphones.png"
+            }
         ]
     }
   }
