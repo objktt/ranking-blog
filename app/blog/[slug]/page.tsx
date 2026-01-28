@@ -230,7 +230,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Heavy Duty Aluminum", "QMK/VIA Support", "2.4GHz + BT"],
                 cons: ["Heavy", "Expensive"],
                 price: "$209",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Keychron+Q1+Max",
                 image: "/post-keyboard-1.jpg"
             },
             {
@@ -241,7 +241,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Ultra-portable", "Stunning Design"],
                 cons: ["Smaller Battery"],
                 price: "$119",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=NuPhy+Air75+V2",
                 image: "/post-keyboard-2.jpg"
             },
             {
@@ -252,7 +252,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Lightspeed Wireless", "Dedicated Media Keys"],
                 cons: ["Micro-USB (some versions)", "Expensive"],
                 price: "$229",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Logitech+G915+TKL",
                 image: "/post-keyboard-3.jpg"
             },
             {
@@ -263,7 +263,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Custom Feel", "Great Latency", "OLED Display"],
                 cons: ["Software bloat", "Very Pricey"],
                 price: "$249",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Asus+ROG+Azoth",
                 image: "/post-keyboard-1.jpg"
             },
             {
@@ -274,7 +274,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Good Value", "Perfect Layout"],
                 cons: ["Plastic Base", "Tall profile"],
                 price: "$99",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Keychron+K2+Pro",
                 image: "/post-keyboard-2.jpg"
             },
             {
@@ -285,7 +285,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Optical Switches", "Very Slim"],
                 cons: ["Razer Synapse", "Average battery"],
                 price: "$199",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Razer+DeathStalker+V2+Pro",
                 image: "/post-keyboard-3.jpg"
             },
             {
@@ -296,7 +296,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Adjustable Actuation", "Rapid Trigger"],
                 cons: ["Expensive", "Keycap quality"],
                 price: "$239",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=SteelSeries+Apex+Pro+TKL+Wireless",
                 image: "/post-keyboard-1.jpg"
             },
             {
@@ -307,7 +307,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Solid Build", "Classic Feel"],
                 cons: ["No Software", "Basic RGB"],
                 price: "$139",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Ducky+One+3+TKL",
                 image: "/post-keyboard-2.jpg"
             },
             {
@@ -318,7 +318,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Compact", "Great App"],
                 cons: ["Dated Bluetooth", "No Hot-swap"],
                 price: "$89",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Anne+Pro+2",
                 image: "/post-keyboard-3.jpg"
             },
             {
@@ -329,7 +329,7 @@ const posts: Record<string, PostData> = {
                 pros: ["Amazing Price", "Includes Knob"],
                 cons: ["Budget Plastic", "Hit-or-miss QC"],
                 price: "$75",
-                link: "https://amazon.com",
+                link: "https://www.amazon.com/s?k=Epomaker+TH80+Pro",
                 image: "/post-keyboard-1.jpg"
             }
         ],
