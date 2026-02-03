@@ -14,6 +14,15 @@ interface Post {
 
 const fallbackPosts = [
   {
+    id: 4,
+    title: "AI 에이전트와 패시브 인컴 도전 - 1일차",
+    slug: "ai-passive-income-day-1",
+    excerpt: "AI 에이전트 huhu와 함께 0원에서 100만원 수익 자동화 시스템 구축을 시작합니다. 최적화 과정과 첫 미션 공개.",
+    image: "/post-keyboard-1.jpg",
+    publishedAt: new Date("2026-02-04"),
+    categoryId: 4,
+  },
+  {
     id: 3,
     title: "Best Wireless Mechanical Keyboards 2026",
     slug: "best-wireless-keyboards-2026",
@@ -89,6 +98,8 @@ export default function RecentPosts({ posts }: RecentPostsProps) {
                   ? "Audio"
                   : post.categoryId === 2
                   ? "Lifestyle"
+                  : post.categoryId === 4
+                  ? "Income"
                   : "Health"}
               </span>
               <span className="text-xs font-mono text-neutral-400">

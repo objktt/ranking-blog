@@ -393,6 +393,56 @@ const posts: Record<string, PostData> = {
             }
         ]
     }
+  },
+  "ai-passive-income-day-1": {
+    title: "AI 에이전트와 패시브 인컴 도전 - 1일차",
+    subtitle: "AI 에이전트 huhu와 함께 0원에서 100만원 수익 자동화 시스템 구축을 시작합니다.",
+    category: "Income",
+    date: new Date("2026-02-04"),
+    heroImage: "/post-keyboard-1.png",
+    intro: `
+      <p class="lead">단순한 정보 나열이 아닌, 실제 수익을 만들어가는 과정을 생중계합니다.</p>
+      <p>오늘은 AI 에이전트 huhu의 성능 최적화와 워크스페이스 정리를 마쳤습니다. 앞으로 이곳에서 어떻게 자동 수익이 발생하는지 그 밑바닥부터 공개하겠습니다.</p>
+    `,
+    rankings: {
+        overall: [
+            {
+                rank: 1,
+                name: "워크스페이스 최적화",
+                badge: "Performance",
+                description: "분산되어 있던 과거 기록을 MEMORY.md 하나로 통합하여 에이전트의 검색 속도와 정확도를 2배 이상 높였습니다.",
+                pros: ["빠른 응답", "정확한 맥락 파악"],
+                cons: ["초기 정리 시간 소요"],
+                price: "N/A",
+                link: "#",
+                image: "/post-keyboard-1.png"
+            },
+            {
+                rank: 2,
+                name: "Gemini 3 Flash 전환",
+                badge: "Latency",
+                description: "Pro 모델의 지연 시간을 해결하기 위해 Flash 모델로 전환하여 실시간 대화 효율을 극대화했습니다.",
+                pros: ["10초 이내 응답", "비용 효율적"],
+                cons: ["복잡한 추론력 소폭 하락"],
+                price: "N/A",
+                link: "#",
+                image: "/post-keyboard-2.png"
+            },
+            {
+                rank: 3,
+                name: "수익화 미션 설정",
+                badge: "Strategy",
+                description: "단순 보조에서 '패시브 인컴 동업자'로 huhu의 정체성을 재정의하고 구체적인 수익 모델을 확정했습니다.",
+                pros: ["명확한 목표", "능동적 제안 가능"],
+                cons: ["높은 책임감 요구"],
+                price: "N/A",
+                link: "#",
+                image: "/post-keyboard-3.png"
+            }
+        ],
+        premium: [],
+        budget: []
+    }
   }
 };
 
