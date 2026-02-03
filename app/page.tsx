@@ -103,7 +103,7 @@ export default async function Home() {
               Project Goal
             </h2>
             <p className="text-xl leading-relaxed text-neutral-600 max-w-md">
-              우리는 단순히 정보를 나열하지 않습니다. AI 에이전트 huhu와 함께 실제 패시브 인컴 수익 모델을 구축하고, 그 모든 과정을 투명하게 기록합니다.
+              우리는 단순히 정보를 나열하지 않습니다. AI 에이전트 huhu와 함께 실제 1인 기업 수익 모델을 구축하고, 그 모든 과정을 투명하게 기록합니다.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8">
@@ -113,8 +113,8 @@ export default async function Home() {
                 desc: "AI 에이전트를 활용한 업무 자동화 및 수익화 시스템 구축.",
               },
               {
-                title: "Passive Income",
-                desc: "노동 시간을 최소화하면서 지속적으로 발생하는 자동 수익원 확보.",
+                title: "Monetization",
+                desc: "1인 기업으로서의 자립을 위한 수익원 확보.",
               },
               {
                 title: "Build in Public",

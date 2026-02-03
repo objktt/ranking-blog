@@ -3,8 +3,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "1인기업가 수익화 도전기",
-  description: "AI 에이전트와 함께하는 1인 기업 패시브 인컴 구축 과정 생중계. 거품 없는 실전 기록.",
+  title: "1인기업가 수익화 일지",
+  description: "AI 에이전트와 함께하는 1인 기업 구축 및 수익화 실전 기록.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,6 @@ export default function RootLayout({
           <nav className="container mx-auto flex h-20 items-center justify-between px-6">
             <Link href="/" className="font-heading font-black text-lg tracking-tighter uppercase leading-[0.75] flex flex-col hover:opacity-70 transition-opacity">
               <span>Solopreneur</span>
-              <span>Income</span>
               <span>Project</span>
             </Link>
             <ul className="flex items-center gap-8 text-sm font-medium tracking-wide uppercase">

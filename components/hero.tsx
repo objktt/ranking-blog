@@ -30,7 +30,7 @@ export default function Hero() {
                Current Project
              </span>
              <span className="text-sm font-medium uppercase tracking-widest text-neutral-500">
-               Passive Income / Automation
+               Project / Automation
              </span>
            </motion.div>
 
@@ -53,8 +53,8 @@ export default function Hero() {
             className="flex flex-col md:flex-row gap-8 items-start md:items-center"
           >
             <p className="text-lg md:text-xl font-medium leading-relaxed max-w-xl text-neutral-800">
-              AI 에이전트 huhu와 함께하는 패시브 인컴 구축 프로젝트.
-              0원에서 100만원까지, 모든 과정을 투명하게 공개합니다.
+              AI 에이전트 huhu와 함께하는 1인 기업 수익화 프로젝트.
+              0원에서 목표 금액까지, 모든 과정을 투명하게 공개합니다.
             </p>
             <Link 
               href="/blog/ai-passive-income-day-1"
