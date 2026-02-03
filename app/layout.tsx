@@ -3,8 +3,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Shaking Baking Ranking",
-  description: "The most honest product rankings on the internet. No fluff, just facts.",
+  title: "1인기업가 수익화 도전기",
+  description: "AI 에이전트와 함께하는 1인 기업 패시브 인컴 구축 과정 생중계. 거품 없는 실전 기록.",
 };
 
 export default function RootLayout({
@@ -20,9 +20,9 @@ export default function RootLayout({
         <header className="fixed top-0 z-50 w-full mix-blend-difference text-white">
           <nav className="container mx-auto flex h-20 items-center justify-between px-6">
             <Link href="/" className="font-heading font-black text-lg tracking-tighter uppercase leading-[0.75] flex flex-col hover:opacity-70 transition-opacity">
-              <span>Shaking</span>
-              <span>Baking</span>
-              <span>Ranking</span>
+              <span>Solopreneur</span>
+              <span>Income</span>
+              <span>Project</span>
             </Link>
             <ul className="flex items-center gap-8 text-sm font-medium tracking-wide uppercase">
               <li><Link href="/audio" className="hover:underline underline-offset-4">Audio</Link></li>
@@ -39,10 +39,9 @@ export default function RootLayout({
         <footer className="border-t border-neutral-200 py-12 px-6">
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
             <div className="space-y-4">
-              <h4 className="font-heading text-xl font-bold uppercase tracking-tight">Ranking Blog</h4>
+              <h4 className="font-heading text-xl font-bold uppercase tracking-tight">Solopreneur Blog</h4>
               <p className="text-sm text-neutral-500 max-w-xs">
-                Honest, data-driven rankings for the products that matter.
-                No fluff. Just facts.
+                AI 에이전트와 함께 만들어가는 1인 기업 자동화 수익 모델 실전 기록.
               </p>
             </div>
             <div className="flex gap-8 text-sm text-neutral-600">
