@@ -41,8 +41,8 @@ export default function Hero() {
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               className="text-5xl md:text-8xl font-bold tracking-tighter uppercase font-heading leading-tight"
             >
-              1인 기업가 <br /> 
-              <span className="text-neutral-500">수익화 도전.</span>
+              The Leica M11 <br /> 
+              <span className="text-neutral-500">Monochrom.</span>
             </motion.h1>
           </div>
           
@@ -53,14 +53,14 @@ export default function Hero() {
             className="flex flex-col md:flex-row gap-8 items-start md:items-center"
           >
             <p className="text-lg md:text-xl font-medium leading-relaxed max-w-xl text-neutral-800">
-              AI 에이전트 huhu와 함께하는 패시브 인컴 구축 프로젝트.
-              0원에서 100만원까지, 모든 과정을 투명하게 공개합니다.
+              Is black and white photography still relevant in 2024? 
+              We reviewed the ultimate tool for purists to find out if less really is more.
             </p>
             <Link 
-              href="/blog/ai-passive-income-day-1"
+              href="/blog/leica-m11-review"
               className="group flex items-center gap-4 border-b border-black pb-1 hover:opacity-60 transition-opacity"
             >
-              <span className="text-sm font-bold uppercase tracking-widest">첫 번째 일지 읽기</span>
+              <span className="text-sm font-bold uppercase tracking-widest">Read Review</span>
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </motion.div>
