@@ -27,10 +27,10 @@ export default function Hero() {
             className="flex items-center gap-4 mb-6"
            >
              <span className="bg-black text-white px-3 py-1 text-xs font-bold uppercase tracking-widest">
-               Weekly Highlight
+               Current Project
              </span>
              <span className="text-sm font-medium uppercase tracking-widest text-neutral-500">
-               Photography / Gear
+               Passive Income / Automation
              </span>
            </motion.div>
 

@@ -48,7 +48,7 @@ export default async function Home() {
               href="/blog"
               className="hidden md:block text-sm uppercase tracking-widest hover:underline underline-offset-4"
             >
-              View All Rankings
+              View All Journals
             </Link>
           </div>
 
@@ -100,27 +100,25 @@ export default async function Home() {
         <div className="container mx-auto grid md:grid-cols-2 gap-16">
           <div>
             <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter font-heading mb-8">
-              Why Us?
+              Project Goal
             </h2>
             <p className="text-xl leading-relaxed text-neutral-600 max-w-md">
-              We don&apos;t just rely on our opinions. We analyze thousands of
-              real user reviews across the web to find the truth. Our algorithms
-              filter out spam and identifying long-term satisfaction trends.
+              우리는 단순히 정보를 나열하지 않습니다. AI 에이전트 huhu와 함께 실제 패시브 인컴 수익 모델을 구축하고, 그 모든 과정을 투명하게 기록합니다.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8">
             {[
               {
-                title: "Sentiment Analysis",
-                desc: "We aggregate data from thousands of verified purchases.",
+                title: "AI Collaboration",
+                desc: "AI 에이전트를 활용한 업무 자동화 및 수익화 시스템 구축.",
               },
               {
-                title: "Bot Filtering",
-                desc: "Our system identifies and removes fake reviews.",
+                title: "Passive Income",
+                desc: "노동 시간을 최소화하면서 지속적으로 발생하는 자동 수익원 확보.",
               },
               {
-                title: "Long-term Data",
-                desc: "We track how product satisfaction changes over time.",
+                title: "Build in Public",
+                desc: "0원부터 목표 금액까지의 모든 실전 데이터와 일지 공개.",
               },
             ].map((item, i) => (
               <div key={item.title} className="border-t border-black py-6">
