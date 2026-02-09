@@ -14,6 +14,15 @@ interface Post {
 
 const fallbackPosts = [
   {
+    id: 5,
+    title: "1인 기업가를 위한 필수 AI 도구 TOP 5",
+    slug: "essential-ai-tools-for-solopreneurs",
+    excerpt: "혼자서 기획, 디자인, 마케팅까지 다 해야 한다면? 이제 AI를 직원으로 채용하세요. 실전에서 바로 쓰는 5가지 필수 툴.",
+    image: "/post-ai-tools.png",
+    publishedAt: new Date(),
+    categoryId: 2, // Productivity/Lifestyle
+  },
+  {
     id: 4,
     title: "AI 에이전트와 패시브 인컴 도전 - 1일차",
     slug: "ai-passive-income-day-1",
