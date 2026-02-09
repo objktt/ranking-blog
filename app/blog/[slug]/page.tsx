@@ -394,6 +394,89 @@ const posts: Record<string, PostData> = {
         ]
     }
   },
+  "essential-ai-tools-for-solopreneurs": {
+    title: "1인 기업가를 위한 필수 AI 도구 TOP 5",
+    subtitle: "혼자서 기획, 디자인, 마케팅까지 다 해야 한다면? 이제 AI를 직원으로 채용하세요.",
+    category: "Productivity",
+    date: new Date("2026-02-09"),
+    heroImage: "/post-ai-tools.png",
+    intro: `
+      <p class="lead">"직원이 없다고요? 아닙니다. 당신에겐 AI가 있습니다."</p>
+      <p>1인 기업가는 몸이 열 개라도 모자랍니다. 기획하랴, 글 쓰랴, 이미지 만들랴... 하지만 이제 AI 도구들만 잘 써도 5명 몫은 거뜬히 해냅니다. 제가 직접 써보고 엄선한, <strong>실전에서 바로 써먹을 수 있는 필수 AI 도구 5가지</strong>를 소개합니다.</p>
+    `,
+    rankings: {
+        overall: [
+            {
+                rank: 1,
+                name: "ChatGPT & Claude",
+                badge: "AI Brain",
+                description: "기획, 초안 작성, 코딩, 아이디어 회의까지. 1인 기업가의 '뇌'를 확장해주는 필수 파트너입니다. ChatGPT는 범용성이 좋고, Claude는 긴 글과 맥락 파악에 강합니다.",
+                pros: ["무한한 아이디어 뱅크", "초안 작성 시간 단축", "한국어 처리 우수"],
+                cons: ["가끔 할루시네이션(거짓 정보)", "프롬프트 작성 능력 필요"],
+                price: "Free / $20/mo",
+                link: "https://chat.openai.com",
+                image: "/shot-chatgpt.png"
+            },
+            {
+                rank: 2,
+                name: "Kardyy (카디)",
+                badge: "Hidden Gem",
+                description: "아직 많이 알려지지 않은 숨은 꿀템입니다. Canva도 좋지만, 1인 기업가에겐 '시간'이 생명이잖아요? 이건 URL만 던져주면 AI가 알아서 내용을 요약해서 카드뉴스로 만들어줍니다. 특히 API와 MCP까지 지원해서 자동화에 진심인 분들에게는 대체 불가능한 도구입니다.",
+                pros: ["URL to Card News 자동화", "API & MCP 지원 (개발자 추천)", "영상 오버레이 기능"],
+                cons: ["초기 서비스라 템플릿이 계속 추가되는 중"],
+                price: "Free / Pro",
+                link: "https://kardyy.kr",
+                image: "/shot-kardyy.png"
+            },
+            {
+                rank: 3,
+                name: "Kie AI (Z-Image)",
+                badge: "High-End Visuals",
+                description: "디자이너 없이도 고퀄리티 이미지를 뽑아냅니다. 특히 'Z-Image' 모델은 실사 사진 같은 퀄리티를 자랑하며, 카드뉴스나 블로그 썸네일 제작에 최적화되어 있습니다.",
+                pros: ["압도적인 실사 퀄리티", "빠른 생성 속도", "저렴한 비용"],
+                cons: ["API 방식이라 초기 세팅 필요", "프롬프트 영어 작성"],
+                price: "Pay per usage",
+                link: "https://kie.ai",
+                image: "/shot-kie.png"
+            },
+            {
+                rank: 4,
+                name: "Perplexity",
+                badge: "Super Search",
+                description: "구글링 시간을 1/10로 줄여줍니다. 출처가 명시된 정확한 답변을 제공하므로 시장 조사나 트렌드 파악에 필수적입니다.",
+                pros: ["출처 기반 신뢰성", "빠른 정보 요약", "광고 없는 검색"],
+                cons: ["복잡한 심층 분석은 한계", "가끔 출처 오류"],
+                price: "Free / $20/mo",
+                link: "https://www.perplexity.ai",
+                image: "/shot-perplexity.png"
+            },
+            {
+                rank: 5,
+                name: "Canva",
+                badge: "Design Standard",
+                description: "설명이 필요 없는 국민 디자인 툴입니다. AI 기능이 계속 강화되고 있어, Kardyy로 만든 초안을 여기서 더 예쁘게 다듬거나, 로고/배너 등 브랜딩 자산을 만들 때 여전히 유효합니다.",
+                pros: ["압도적인 템플릿 수", "팀 협업 기능", "직관적인 UI"],
+                cons: ["유료 템플릿이 많음", "너무 흔한 디자인"],
+                price: "Free / Pro",
+                link: "https://www.canva.com",
+                image: "/shot-canva.png"
+            },
+            {
+                rank: 6,
+                name: "Zapier & Make",
+                badge: "Automation",
+                description: "반복적인 업무를 자동으로 연결해줍니다. '블로그 글 쓰면 → 자동으로 인스타 업로드' 같은 워크플로우를 짤 수 있어 잠자는 시간에도 일하게 만듭니다.",
+                pros: ["업무 자동화 끝판왕", "다양한 앱 연동", "시간 절약"],
+                cons: ["초보자에겐 진입장벽", "복잡하면 비용 증가"],
+                price: "Free Tier Available",
+                link: "https://zapier.com",
+                image: "/shot-zapier.png"
+            }
+        ],
+        premium: [],
+        budget: []
+    }
+  },
   "ai-passive-income-day-1": {
     title: "AI 에이전트와 패시브 인컴 도전 - 1일차",
     subtitle: "AI 에이전트 huhu와 함께 0원에서 100만원 수익 자동화 시스템 구축을 시작합니다.",
