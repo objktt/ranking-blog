@@ -22,25 +22,12 @@ async function getCategories() {
 }
 
 async function getRecentPosts() {
-  // Temporary: Manual override until DB access is restored
-  return [
-    {
-      title: "1인 기업가를 위한 필수 AI 도구 TOP 5",
-      slug: "essential-ai-tools-for-solopreneurs",
-      category: { name: "Productivity", slug: "productivity" }, // Mock category structure
-      publishedAt: new Date(),
-      image: "/post-ai-tools.png",
-      excerpt: "혼자서 기획, 디자인, 마케팅까지 다 해야 한다면? 이제 AI를 직원으로 채용하세요."
-    },
-    {
-      title: "AI 에이전트와 패시브 인컴 도전 - 1일차",
-      slug: "ai-passive-income-day-1",
-      category: { name: "Income", slug: "income" },
-      publishedAt: new Date("2026-02-04"),
-      image: "/post-keyboard-1.png",
-      excerpt: "AI 에이전트 huhu와 함께 0원에서 100만원 수익 자동화 시스템 구축을 시작합니다."
-    }
-  ] as any[]; // Cast to any to bypass strict typing for now
+  return db
+    .select()
+    .from(posts)
+    .where(eq(posts.published, true))
+    .orderBy(desc(posts.publishedAt))
+    .limit(3);
 }
 
 export default async function Home() {
